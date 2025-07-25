@@ -249,3 +249,30 @@
     text-align: center;
 
 }
+.footer{
+    margin: 50px 160px;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    justify-items: center;
+    gap: 40px;
+}
+.one{
+    list-style-type: none;
+    margin-bottom: 30px;
+    color: gray;
+}
+.footer-part4{
+    display: flex;
+    gap:30px;
+}
+.footer-part4 img{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+.color-change{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
