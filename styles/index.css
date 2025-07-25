@@ -49,3 +49,49 @@ ul li{
     font-size: 22px;
     color:rgba(0, 0, 0, 0.5)
 }
+/* PLANTS STYLES START */
+.plants{
+    width: 1140px;
+    margin: 171px auto;
+}
+.plants-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+}
+.button-primary{
+    padding: 19px 80px;
+    background-color: #E95A08;
+    width: 270px;
+    border: none;
+    color: white;
+}
+.card-title{
+    text-align: center;
+    font-weight: 600;
+    font-size:22px;
+}
+.price{
+    font-weight: bold;
+    font-size: 22px;
+    color:#111111;
+}
+.card-plants-title{
+    text-align:center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.color-orange{
+    color: #E95A08;
+}
+.card-plants-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 888px;
+    margin: 0 auto;
+    font-size: 22px;
+    margin-bottom: 49px;
+    color:rgba(0, 0, 0, 0.5);
+} 
