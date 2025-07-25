@@ -192,10 +192,8 @@
     background-size: cover;
     height: 435px;
     border-radius: 22px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+   
+    
 
 }
 .bloom-plant-title{
@@ -217,4 +215,37 @@
     font-weight: 700;
     font-size: 28px;
     color:#FFFFFF;
+}
+/* colorful style */
+.colorful{
+    background-image: url('../assets/news-letter-bg.png');
+    height: 533px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.coffee{
+    display: flex;
+    align-items: center;
+    width: 830px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.email{
+    padding: 15px;
+    flex: 1;
+    border: none;
+}
+.join-title{
+    font-weight:bold;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+
 }
