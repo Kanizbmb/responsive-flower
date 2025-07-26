@@ -420,9 +420,7 @@
 
 /* Mobile styles */
 @media screen and (max-width: 576px) {
-    header{
-        margin-right: 15px;
-    }
+    
    .hide-col {
        display: none;
    }
@@ -502,7 +500,6 @@
 
    .plants {
        flex-direction: column;
-       margin-right: 15px; 
    }
 
 
